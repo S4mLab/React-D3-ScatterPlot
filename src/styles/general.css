@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+pre {
+    font-size: 7em;
+}
+
+.tick text {
+    fill: #635F5D;
+}
+
+.axis-label {
+    font-size: 1.5em;
+    fill: #635F5D;
+}
+
