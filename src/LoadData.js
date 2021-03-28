@@ -12,7 +12,7 @@ const LoadData = () => {
     // download the data just once when app first render, use [] as dependence
     useEffect(() => {
   
-      const convertProps2Num = aDataObj => {
+      const convertObjProps2Num = aDataObj => {
         aDataObj.sepal_length = +aDataObj.sepal_length
         aDataObj.sepal_width = +aDataObj.sepal_width
         aDataObj.petal_length = +aDataObj.petal_length
@@ -20,7 +20,7 @@ const LoadData = () => {
         return aDataObj
       }
 
-      csv(csvUrl, convertProps2Num).then(dataArray => setData(dataArray))
+      csv(csvUrl, convertObjProps2Num).then(dataArray => setData(dataArray))
     },[])
     return data
   }
