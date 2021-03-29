@@ -15,7 +15,7 @@ const App = () => {
 
   const widthSVG = 960
   const heightSVG = 500
-  const margin = { top: 20, right: 30, bottom: 70, left:90 }
+  const margin = { top: 20, right: 30, bottom: 70, left: 90 }
 
   const xAxisLabelOffset = 50
   const yAxisLabelOffset = 40
